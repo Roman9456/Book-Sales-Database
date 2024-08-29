@@ -37,10 +37,6 @@ Fill the database with test data. The test data can be obtained from the "fixtur
 
 A possible implementation: read the JSON file, create the corresponding model instances, and save them to the database.
 
-### General Advice
-- Store the database connection parameters (login, password, database name, etc.) in separate variables.
-- Load the values from the OS environment, for example, using os.getenv().
-- You can either manually fill the data or complete the optional Task 3.
 
 ## Russian
 
@@ -78,8 +74,3 @@ A possible implementation: read the JSON file, create the corresponding model in
 Заполните базу данных тестовыми данными. Тестовые данные можно получить из папки "fixtures", где данные хранятся в файле JSON.
 
 Возможная реализация: прочитать файл JSON, создать соответствующие экземпляры моделей и сохранить их в базу данных.
-
-### Общие советы
-- Храните параметры подключения к базе данных (логин, пароль, название базы данных и т.д.) в отдельных переменных.
-- Загружайте значения из окружения ОС, например, с помощью os.getenv().
-
